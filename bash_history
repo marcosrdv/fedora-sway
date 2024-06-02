@@ -64,3 +64,98 @@ setfont ter-d28n
 setfont ter-d28b
 sudo vim /etc/vconsole.conf 
 exit
+sudo mc
+sudo dnf upgrade
+cat /etc/vconsole.conf 
+cat /etc/sysctl.d/99-swappiness.conf 
+cat /etc/sudoers.d/99-users.conf
+sudo cat /etc/sudoers.d/99-users.conf
+sudo visudo 
+sudo vim /etc/sudoers.d/99-users.conf
+cmatrix
+vim .config/sway/config
+man swaynag 
+ll .config/sway*
+man swaynag 
+ll /etc/xdg/
+man swaynag 
+
+ll /etc/sway
+ll /etc/sway/config.d/
+ll /etc/sway/environment 
+cat /etc/sway/environment 
+rofi-theme-selector 
+cd .config/rofi/
+ll
+vim config.rasi 
+cp /usr/share/rofi/themes/arthur.rasi .
+ll
+mv config.rasi config.rasi.0
+mv arthur.rasi config.rasi
+mousepad config.rasi
+cp /usr/share/rofi/themes/arthur.rasi .
+rofi-theme-selector 
+ll
+cat config.rasi
+cp /usr/share/rofi/themes/Arc-Dark.rasi .
+ll
+cp Arc-Dark.rasi config.rasi
+mousepad config.rasi
+ll
+rm arthur.rasi 
+less *
+ll
+lsd
+cd ~
+sudo systemctl enable --now fstrim.timer
+systemctl list-timers 
+sudo systemctl start fstrim.timer
+which swaynag
+cd .config/
+ll
+man swaynag
+cat $XDG_CONFIG_HOME/swaynag/config
+ll $XDG_CONFIG_HOME/swaynag/
+man swaynag
+ll SYSCONFDIR/swaynag/
+cat sway/config | grep swaynag
+swaynag -e bottom -f monospace 24 -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+swaynag -e bottom -f monospace 24 -56 warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+swaynag -e bottom -f monospace 48 warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+swaynag -e bottom -f "monospace 24" warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+cat sway/config | grep swaynag
+vim sway/config 
+sudo dnf upgrade -y
+sudo cat /etc/sudoers.d/99-users.conf
+less .config/sway/config | grep lock
+less .config/sway/config
+swaylock -f -c 000000
+fastfetch 
+btop
+htop
+sudo dnf install btop -y
+btop
+less .config/sway/config | grep swaybg
+less .config/sway/config
+sudo dnf install feh
+sudo ls -lah /etc/sudoers.d/
+sudo vim /etc/sudoers.d/99-users.conf
+ll /usr/share/backgrounds/
+sudo mv /usr/share/backgrounds/default.png /usr/share/backgrounds/default-day.png 
+sudo cp /usr/share/backgrounds/default-dark.png /usr/share/backgrounds/default.png 
+sudo dnf exit
+exit
+alias
+srch sddm-
+srch sddm-config
+srch config
+srch config | grep sddm
+srch config | grep lxqt
+inst lxqt-config
+inst fedora-release-lxqt
+srch lxqt
+inst lxqt
+sudo dnf upgrade --refresh
+sudo dnf group install "LXQt Desktop" "LXQt Office" "Multimedia support for LXQt" "Applications for the LXQt Desktop"
+sudo dnf upgrade --refresh
+sudo dnf group install "LXQt Desktop" "LXQt Office" "Multimedia support for LXQt" "Applications for the LXQt Desktop"
